@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <title>Test</title>
+    </head>
+    <body>
+        <div class="container">
+            <input 
+                autocomplete="off"
+                id="phone" 
+                name="phone"
+                title="Example: +375336578433" 
+                type="tel"
+                placeholder="Ваш номер..."
+                pattern="+375(29,33,17)[0-9]{7}"
+                required
+            >
+            <button id="start" >
+                <div class="fas fa-check icon"></div>
+                <div class="text">Заказать</div>
+            </button>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+</html>
